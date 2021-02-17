@@ -1,0 +1,24 @@
+.active_class {
+    color: blueviolet;
+    border-bottom: 1px solid #000;
+}
+
+#reactMenu {
+    background: darkblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+#reactMenu a {
+    color: #fff;
+}
+
+#reactMenu a.active_class {
+    color: #007eff;
+    border-bottom: 1px solid #001fff;
+}
+
+.searchPage {
+    text-align: center;
+}
